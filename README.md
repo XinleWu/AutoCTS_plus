@@ -26,3 +26,19 @@ CUDA_VISIBLE_DEVICES=0 python3.6 joint_search.py
 cd test
 CUDA_VISIBLE_DEVICES=0 python3.6 joint_test.py
 ```
+
+# Reference
+
+If you use AutoCTS+ for your research, please cite the following paper. 
+<pre>     
+@article{wu2023autocts+,
+  title={AutoCTS+: Joint neural architecture and hyperparameter search for correlated time series forecasting},
+  author={Wu, Xinle and Zhang, Dalin and Zhang, Miao and Guo, Chenjuan and Yang, Bin and Jensen, Christian S},
+  journal={Proceedings of the ACM on Management of Data},
+  volume={1},
+  number={1},
+  pages={1--26},
+  year={2023},
+  publisher={ACM New York, NY, USA}
+}
+</pre>   
